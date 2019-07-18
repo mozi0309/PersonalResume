@@ -1,0 +1,192 @@
+.MacBook-277JFzHw {
+  font-size: 14px;
+  width: 860px;
+  height: 600px;
+  background: -webkit-linear-gradient(60deg, #fafafa 25%, #d2d2d2);
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 5px 6px #8a5656;
+  color: white;
+  padding-bottom: 15px;
+  float: right;
+  margin-top: 120px;
+  margin-right: 150px; }
+  .MacBook-277JFzHw:before {
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    left: -90px;
+    content: '';
+    width: 1040px;
+    height: 20px;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    border-top-left-radius: 390px 18px;
+    border-top-right-radius: 390px 18px;
+    background: -webkit-linear-gradient(top, #d2d2d2 50%, #e1e1e1); }
+  .MacBook-277JFzHw .blackBar-2MgoUpxE {
+    background: -webkit-linear-gradient(top, #1e1e1e, #3c3c3c 35%, #646464 50%, #1e1e1e 65%);
+    width: 720px;
+    height: 18px;
+    margin: 0 auto; }
+  .MacBook-277JFzHw .keyBoard-2doPgMq0 {
+    width: 790px;
+    margin: 0 auto;
+    height: auto;
+    padding: 8px;
+    border: 1px solid #b4b4b4;
+    border-radius: 8px;
+    background: #fafafa;
+    margin-top: 18px; }
+    .MacBook-277JFzHw .keyBoard-2doPgMq0 .touchBar-P_-ejEiu {
+      width: 727px;
+      height: 28px;
+      background-color: black;
+      border-radius: 4px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-align: center;
+          align-items: center;
+      padding: 0 30px; }
+      .MacBook-277JFzHw .keyBoard-2doPgMq0 .touchBar-P_-ejEiu span {
+        display: inline-block;
+        width: 40px;
+        height: 18px;
+        background-color: #3b3b3b;
+        color: white;
+        text-align: center;
+        border-radius: 3px;
+        line-height: 1.25; }
+      .MacBook-277JFzHw .keyBoard-2doPgMq0 .touchBar-P_-ejEiu img {
+        width: auto;
+        height: 18px;
+        border-radius: 4px; }
+    .MacBook-277JFzHw .keyBoard-2doPgMq0 ul {
+      width: 100%;
+      height: auto;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      padding: 0;
+      margin: 0;
+      margin-top: 5px; }
+    .MacBook-277JFzHw .keyBoard-2doPgMq0 .tab-1KpLsry8 {
+      width: 75px;
+      height: 50px;
+      background-color: black;
+      text-align: center;
+      border-radius: 4px;
+      line-height: 50px; }
+    .MacBook-277JFzHw .keyBoard-2doPgMq0 .enter-3VobCVNy {
+      width: 90px;
+      height: 50px;
+      background-color: black;
+      border-radius: 4px;
+      text-align: center;
+      line-height: 50px; }
+    .MacBook-277JFzHw .keyBoard-2doPgMq0 .shift-3onPbRwh {
+      width: 117.5px;
+      height: 50px;
+      background-color: black;
+      border-radius: 4px;
+      text-align: center;
+      line-height: 50px; }
+    .MacBook-277JFzHw .keyBoard-2doPgMq0 .space-2ZzhSX8U {
+      width: 295px;
+      height: 50px;
+      background-color: black;
+      border-radius: 4px;
+      text-align: center;
+      line-height: 50px; }
+  .MacBook-277JFzHw .touch-2Q3pny3B {
+    width: 400px;
+    height: 230px;
+    border: 2px solid #bebebe;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 10px; }
+  .MacBook-277JFzHw .normalKey-9BJVxXW7 {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center; }
+
+.nav-2e5IpC7w {
+  width: 20%;
+  height: 100vh;
+  background-color: rgba(73, 73, 73, 0.95);
+  font-size: 20px;
+  color: white;
+  float: left;
+  z-index: 99; }
+  .nav-2e5IpC7w span {
+    cursor: pointer;
+    text-decoration: none;
+    color: white; }
+    .nav-2e5IpC7w span:hover {
+      color: #EDE06B; }
+  .nav-2e5IpC7w .menu-ysBk2GT0 {
+    text-align: right;
+    list-style-type: none;
+    margin-right: 40px;
+    float: right;
+    margin-top: 250px;
+    font-weight: bolder;
+    line-height: 2; }
+    .nav-2e5IpC7w .menu-ysBk2GT0 .links-IlVfxN0Z span {
+      display: block;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.6; }
+
+.StarBlink-PKOMC3Vs {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background: rgba(0, 0, 0, 0.9); }
+  .StarBlink-PKOMC3Vs .show-s7W0rdX3 {
+    width: 7px;
+    height: 7px;
+    overflow: hidden; }
+    .StarBlink-PKOMC3Vs .show-s7W0rdX3 img {
+      width: 49px;
+      height: 7px;
+      position: absolute;
+      top: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.bgFull {
+  width: 100%;
+  height: 100vh;
+}
+
+.welcome {
+  width: 80%;
+  position: absolute;
+  right: 0;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  /* background: rgba(0, 0, 0, 0.6) */
+}
+
+h1 {
+  font-size: 80px;
+}
