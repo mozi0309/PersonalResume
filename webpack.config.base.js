@@ -7,7 +7,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/'
+    publicPath: './'
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json'],
@@ -25,7 +25,7 @@ module.exports = {
             options: {
               name: '[hash].[ext]',
               outputPath: 'assets/',
-              publicPath: '/assets/'
+              publicPath: './assets/'
             }
           }
         ]

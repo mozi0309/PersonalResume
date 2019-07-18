@@ -15,7 +15,7 @@ const prodConfig = {
   plugins: [
     new CleanWebpackPlugin('dist'),
     new HtmlWebpackPlugin({
-      title: 'demo',
+      title: 'PersonalResume',
       template: './tmpl/index.html'
     }),
     new MiniCssExtractPlugin({
