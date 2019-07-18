@@ -1,0 +1,20 @@
+.StarBlink {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background: rgba($color: #000000, $alpha: 0.9);
+
+  .show {
+    width: 7px;
+    height: 7px;
+    overflow: hidden;
+
+    img {
+      width: 49px;
+      height: 7px;
+      position: absolute;
+      top: 0;
+    }
+  }
+}
