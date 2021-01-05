@@ -67,96 +67,102 @@ const MacBook = () => {
   ]
 
   return (
-    <div className={style.MacBook}>
-      <div className={style.blackBar}>
-      </div>
-      <div className={style.keyBoard}>
-        <div className={style.touchBar}>
-          <span>esc</span>
-          <img src={require('../../../assets/touchBar.jpg')} />
+    <>
+      <div className={style.title}>MacBook静态样本(技术栈：纯JS、CSS构绘)</div>
+      <div className={style.MacBook}>
+        <div className={style.blackBar}>
         </div>
-        <ul>
-          {first.map((i, index) => {
-            return (
+        <div className={style.keyBoard}>
+          <div className={style.touchBar}>
+            <span>esc</span>
+            <img src={require('../../../assets/touchBar.jpg')} />
+          </div>
+          <ul>
+            {first.map((i, index) => {
+              return (
+                <Keys
+                  key={index}
+                  span1={i.span1}
+                  span2={i.span2}
+                />
+              )
+            })}
+            <div className={style.tab}>delete</div>
+          </ul>
+          <ul>
+            <div className={style.tab}>tab</div>
+            {secondSingle.map((i, index) => (
+              <Keys
+                key={index}
+                span1={i}
+              />
+            ))}
+            {secondDouble.map(i => (
+              <Keys
+                key={i.span1}
+                span1={i.span1}
+                span2={i.span2}
+              />
+            ))}
+          </ul>
+          <ul>
+            <div className={style.enter}>中/英</div>
+            {thirdSingle.map(i => (
+              <Keys
+                key={i}
+                span1={i}
+              />
+            ))}
+            {thirdDouble.map((i, index) => (
+              <Keys
+                key={i.id}
+                span1={i.span1}
+                span2={i.span2}
+              />
+            ))}
+            <div className={style.enter}>return</div>
+          </ul>
+          <ul>
+            <div className={style.shift}>shift</div>
+            {fourthSingle.map(i => (
+              <Keys
+                key={i}
+                span1={i}
+              />
+            ))}
+            {fouthDouble.map((i, index) => (
               <Keys
                 key={index}
                 span1={i.span1}
                 span2={i.span2}
               />
-            )
-          })}
-          <div className={style.tab}>delete</div>
-        </ul>
-        <ul>
-          <div className={style.tab}>tab</div>
-          {secondSingle.map((i, index) => (
-            <Keys
-              key={index}
-              span1={i}
-            />
-          ))}
-          {secondDouble.map(i => (
-            <Keys
-              key={i.span1}
-              span1={i.span1}
-              span2={i.span2}
-            />
-          ))}
-        </ul>
-        <ul>
-          <div className={style.enter}>中/英</div>
-          {thirdSingle.map(i => (
-            <Keys
-              key={i}
-              span1={i}
-            />
-          ))}
-          {thirdDouble.map((i, index) => (
-            <Keys
-              key={i.id}
-              span1={i.span1}
-              span2={i.span2}
-            />
-          ))}
-          <div className={style.enter}>return</div>
-        </ul>
-        <ul>
-          <div className={style.shift}>shift</div>
-          {fourthSingle.map(i => (
-            <Keys
-              key={i}
-              span1={i}
-            />
-          ))}
-          {fouthDouble.map((i, index) => (
-            <Keys
-              key={index}
-              span1={i.span1}
-              span2={i.span2}
-            />
-          ))}
-          <div className={style.shift}>shift</div>
-        </ul>
-        <ul>
-          {lastLeft.map((i, index) => (
-            <Keys
-              key={index}
-              span1={i.span1}
-              span2={i.span2}
-            />
-          ))}
-          <div className={style.space}></div>
-          {lastRight.map((i, index) => (
-            <Keys
-              key={index}
-              span1={i.span1}
-              span2={i.span2}
-            />
-          ))}
-        </ul>
+            ))}
+            <div className={style.shift}>shift</div>
+          </ul>
+          <ul>
+            {lastLeft.map((i, index) => (
+              <Keys
+                key={index}
+                span1={i.span1}
+                span2={i.span2}
+              />
+            ))}
+            <div className={style.space}></div>
+            {lastRight.map((i, index) => (
+              <Keys
+                key={index}
+                span1={i.span1}
+                span2={i.span2}
+              />
+            ))}
+          </ul>
+        </div>
+        <div className={style.touch}></div>
       </div>
-      <div className={style.touch}></div>
-    </div>
+      <div className={style.desc}>
+       
+      </div>
+    </>
   )
 }
 

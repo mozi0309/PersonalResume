@@ -1,0 +1,33 @@
+.snack {
+  width: px(950);
+  height: px(500);
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  float: right;
+  margin-right: px(100);
+  margin-top: px(100);
+  font-size: 0;
+
+  span {
+    width: px(50);
+    height: px(50);
+    border: px(1) solid #ffffff;
+    display: inline-block;
+    margin-top: px(-0.5);
+    margin-bottom: px(-0.5);
+    margin-right: px(-0.5);
+    margin-left: px(-0.5);
+    color: white;
+    line-height: px(50);
+    font-size: px(24);
+    text-align: center;
+  }
+
+  .act {
+    background-color: #fab5b5;
+  }
+
+  .food {
+    background-color: #aef3dc;
+  }
+}

@@ -1,8 +1,9 @@
 .nav {
   width: 20%;
-  height: 100vh;
-  background-color: rgba($color: #494949, $alpha: 0.95);
-  font-size: 20px;
+  min-height: 100vh;
+  height: auto;
+  background-color: rgba($color: #494949, $alpha: 0.8);
+  font-size: px(26);
   color: white;
   float: left;
   z-index: 99;
@@ -21,19 +22,26 @@
   .menu {
     text-align: right;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: px(40);
     float: right;
-    margin-top: 250px;
+    margin-top: px(200);
     font-weight: bolder;
     line-height: 2;
 
     .links {
-      // margin: 10px 0;
-      span {
+      // margin: px(10) 0;
+      .spanNor {
         display: block;
-        font-size: 16px;
+        font-size: px(16);
         font-weight: normal;
         line-height: 1.6;
+      }
+      .spanActive {
+        display: block;
+        font-size: px(16);
+        font-weight: normal;
+        line-height: 1.6;
+        color: #EDE06B;
       }
     } 
   }

@@ -1,0 +1,21 @@
+.iframe {
+  width: px(1000);
+  height: px(696);
+  background: url(../../../assets/iPad.png) no-repeat -3px center;
+  background-size: px(1000) px(696);
+  background-color: #e4e5e7;
+  border-radius: px(25);
+  position: relative;
+  left: px(380);
+  top: px(30);
+
+  iframe {
+    width: px(853);
+    height: px(636);
+    border: none;
+    position: absolute;
+    top: px(30);
+    left: px(68);
+  }
+
+}

@@ -27,6 +27,7 @@ const Nav = ({ data, history }) => {
                 onClick={() => {
                   history.push(i.path)
                 }}
+                className={location.hash.slice(1) === i.path ? style.spanActive : style.spanNor}
               >
                 {i.label}
               </span>
@@ -34,7 +35,11 @@ const Nav = ({ data, history }) => {
           </ul>
         </li>
         <li>
-          <span>ABOUT</span>
+          <span
+            onClick={() => {
+              history.push('/resume')
+            }}
+          >ABOUT</span>
         </li>
         <li>
           <span>CONTACT</span>

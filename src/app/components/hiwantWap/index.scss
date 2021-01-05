@@ -1,0 +1,51 @@
+.iframe {
+  width: px(325.6);
+  height: px(638.8);
+  background: url(../../../assets/iPhoneX.png) no-repeat center -3px;
+  background-size: px(341) px(645.6);
+  background-color: #e4e5e7;
+  border-radius: px(45.5);
+  position: relative;
+  float: left;
+  left: px(50);
+  top: px(50);
+
+  iframe {
+    width: px(290.8);
+    height: px(575.6);
+    // width: 100%;
+    border-bottom-left-radius: px(30);
+    border-bottom-right-radius: px(30);
+  // height: 100%;
+    border: none;
+    position: absolute;
+    top: px(43);
+    left: px(17);
+  }
+}
+.desc {
+  font-size: px(24);
+  margin-top: px(50);
+  float: right;
+  margin-right: px(100);
+  color: white;
+  width: auto;
+  white-space: pre-wrap;
+  line-height: 1.5;
+
+  div {
+    margin-top: px(20);
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;                        
+
+    p {
+      white-space: pre-wrap;
+      width: px(300);
+      line-height: 2;
+    }
+  }
+
+  
+}
