@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PersonalResume</title>
+  <script>
+    function update(){
+      var a = document.documentElement.offsetWidth || document.body.offsetWidth;
+      var b = document.getElementsByTagName('html')[0];
+      var fontSize = 26.667 * (a / 1920) + 'px';
+      b.style.fontSize = fontSize; 
+    }
+    update();
+    window.onresize=update;
+  </script>
+<link href="./css/index-a45b753e96d682dbdcf6.css" rel="stylesheet"></head>
+<body>
+  <div id="app"></div>
+<script type="text/javascript" src="./js/index-a45b753e96d682dbdcf6.js"></script></body>
+</html>
